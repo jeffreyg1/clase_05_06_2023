@@ -56,3 +56,48 @@ if(salario<10000){
       var impuesto=salario*0.45
   console.log("La renta a declarar es de: "+impuesto)
 }
+
+if(imc<18.5){
+console.log("Usted está dentro de los valores correspondientes a delgadez o bajo peso")
+} else if(imc>=18.5 && imc <=24.9){
+console.log("Usted está dentro de los valores normales o de peso saludable.")
+} else if(imc>=25 && imc <=29.9){
+console.log("Usted está dentro de los valores correspondientes a sobrepeso")
+}else{
+console.log("Usted está dentro de los valores correspondientes a obesidad")
+}
+
+var number = 8
+if (number>10){
+  console.log("Es mayor a 10")
+}else{
+  console.log("Es menor a 10")
+}
+
+var number = -2
+if (number==0){
+  console.log("Es igual a cero")
+}else if( number>0){
+  console.log("Es número positivo")
+}else{
+  console.log("Es un numero negativo")
+}
+
+
+var identificador=2
+
+if(identificador==1){
+  console.log("Lunes")
+}else if(identificador==2){
+  console.log("Martes")
+}else if(identificador==3){
+  console.log("Miercoles")
+}else if(identificador==4){
+  console.log("Jueves")
+}else if(identificador==5){
+  console.log("Viernes")
+}else if(identificador==6){
+  console.log("Sabado")
+}else{
+  console.log("Domingo")
+}
